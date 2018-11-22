@@ -15,6 +15,7 @@
 		9B9D696D21A689B800BFDF22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D696C21A689B800BFDF22 /* main.m */; };
 		9B9D697721A689B800BFDF22 /* mmpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D697621A689B800BFDF22 /* mmpTests.m */; };
 		9B9D698221A689B800BFDF22 /* mmpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D698121A689B800BFDF22 /* mmpUITests.m */; };
+		9B9D699221A689F600BFDF22 /* JHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D699021A689F500BFDF22 /* JHLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B9D697D21A689B800BFDF22 /* mmpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9D698121A689B800BFDF22 /* mmpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmpUITests.m; sourceTree = "<group>"; };
 		9B9D698321A689B800BFDF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D699021A689F500BFDF22 /* JHLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLabel.m; sourceTree = "<group>"; };
+		9B9D699121A689F600BFDF22 /* JHLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9B9D695E21A689B700BFDF22 /* AppDelegate.m */,
 				9B9D696021A689B700BFDF22 /* ViewController.h */,
 				9B9D696121A689B700BFDF22 /* ViewController.m */,
+				9B9D699121A689F600BFDF22 /* JHLabel.h */,
+				9B9D699021A689F500BFDF22 /* JHLabel.m */,
 				9B9D696321A689B700BFDF22 /* Main.storyboard */,
 				9B9D696621A689B800BFDF22 /* Assets.xcassets */,
 				9B9D696821A689B800BFDF22 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				9B9D696221A689B700BFDF22 /* ViewController.m in Sources */,
 				9B9D696D21A689B800BFDF22 /* main.m in Sources */,
+				9B9D699221A689F600BFDF22 /* JHLabel.m in Sources */,
 				9B9D695F21A689B700BFDF22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
